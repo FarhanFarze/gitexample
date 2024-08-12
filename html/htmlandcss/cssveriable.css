@@ -1,0 +1,24 @@
+:root{
+    --primary-color: rgb(239, 133, 133);
+    --secondary-color : rgb(59, 59, 173);
+}
+
+#p1{
+    background-color: var(--secondary-color);
+    font-size: 25px;
+    color: brown;
+}
+p::first-letter{
+    font-size: large;
+    color: #da2828;
+}
+.inch{
+    background-color: var(--primary-color);
+    width: 2in;
+}
+.inch{
+    margin: 3cm;
+}
+.percentage{
+    width: 25%;
+}

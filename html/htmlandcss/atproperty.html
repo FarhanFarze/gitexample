@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @property --button-bg-color {
+            syntax: '<color>';
+                inherits: false;
+                initial-value: rgb(222, 40, 52);
+        }
+        button{
+            background-color: var(--button-bg-color);
+            color: black;
+            border: 2px solid red;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        button:hover{
+            --button-bg-color: rgb(151, 151, 225);
+        }
+    </style>
+</head>
+<body>
+    <button>hover me!</button>  
+</body>
+</html>

@@ -1,0 +1,23 @@
+.asd{
+    background-color: aqua;
+    color: blue;
+}
+.qwe{
+    background-color: chartreuse;
+    color: darkgreen;
+}
+.zxc{
+    background-color: lightsalmon;
+    
+}
+.poi{
+    background-color: rgb(178, 106, 213);
+    color: darkmagenta;
+}
+h3::first-letter{
+    color: black;
+    font-size: 30px;
+}
+input:hover{
+    background-color: gold;
+}

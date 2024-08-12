@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-flex{
+            display: flex;
+        }
+        .main{
+            width: 500px;
+            height: 450px;
+            background-color: brown;
+            margin: 10px;
+            padding: 20px;
+            
+        }
+        .d{
+            width: 60px;
+            height: 60px;
+            background-color: antiquewhite;
+            text-align: center;
+            margin: 20px;
+            padding-top: 10px;
+        }
+        .flex-container{
+            width: 500px;
+            height: 250px;
+            background-color: blue;
+            margin: 10px;
+            padding: 20px;
+            display: flex;
+
+        }
+        .flex-item{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(255, 255, 0);
+            text-align: center;
+            margin: 20px;
+            padding-top: 50px;  
+        }
+        
+        header{
+            text-align: center;
+            background-color: yellowgreen;
+            padding: 20px;
+        }
+        nav li{
+          
+            display: inline-block;
+        }
+        a{
+            text-decoration: none;
+        }
+        footer{
+            background-color: rgb(9, 206, 141);
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <li>
+                <a href="#">home</a>
+            </li>
+            <li>
+                <a href="#">menu</a>
+            </li>
+            <li>
+                <a href="#">logout</a>
+            </li>
+        </nav>
+    </header>
+
+<main>
+    <div class="main-flex">
+    <div class="main">
+        <div class="d">one</div>
+        <div class="d">two</div>
+        <div class="d">three</div>
+        <div class="d">four</div>
+    </div>
+    <div class="flex-container">
+        <div class="flex-item">Block 1</div>
+        <div class="flex-item">Block 2</div>
+        <div class="flex-item">Block 3</div>
+        <div class="flex-item">Block 4</div>
+    </div>
+</div>
+</main>
+
+<footer>
+    <a href="#">about us</a>
+</footer>
+</body>
+</html>

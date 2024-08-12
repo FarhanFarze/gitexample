@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <style>
+        .button{
+            background-color: brown;
+            transition-duration: 5s;
+        }
+        .button:hover{
+            background-color: rgb(9, 213, 80);
+        }
+        .image{
+            width: 200px;
+            height: 250px;
+            transition-property: width;
+            transition-property: height;
+            transition-duration: 5s;
+        }
+        .image:hover{
+            width: 300px;
+            height: 350px;
+        }
+        .door{
+            background-image: url(./image/door.jpg);
+            width: 300px;
+            height: 350px;
+            background-repeat: no-repeat;
+            transition: rotateY(0deg);
+            transition: transform 5s ease-in-out;
+            cursor: pointer;
+        }
+        .door:hover{
+            transform: rotateY(180deg);
+        }
+        .tooltip{
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        a:hover .tooltip{
+            opacity: 1;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Apply transition on a Button</h1>
+    <button class="button">Click me!</button>
+
+    <h1>Transition property</h1>
+    <img class="image" src="./image/rolex-watches-navigation-day-date-m228235-0055-10150_rsa_cad24_everose_carrousel_24-portrait.avif" alt="this is an image">
+
+    <h1>Timeing function</h1>
+    <img class="door" src="./image/door.jpg" alt="door open">
+
+    <h1>tooltip</h1>
+    <a href="#">Hover me! <span class="tooltip">This is the link takes you to google</span></a>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+    grid-template-areas: 
+    "header header header"
+    "nav main aside"
+    "footer footer footer";
+
+}
+
+header, nav, main, article, aside, footer{
+    padding: 20px;
+    border: 1px solid black;
+}
+
+header{
+    grid-area: header;
+    background-color: purple;
+}
+nav{
+    grid-area: nav;
+    background-color: rgb(28, 211, 68);
+}
+main{
+    grid-area: main;
+    background-color: brown;
+}
+article{
+    background-color: aquamarine;
+}
+aside{
+    grid-area: aside;
+    background-color: greenyellow;
+}
+footer{
+    grid-area: footer;
+    background-color: palevioletred;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cssunits.css">
+</head>
+<body>
+    <h1>css units</h1>
+    <div>
+        <p id="p1">  CSS has several different units for expressing a length.<br>
+
+            Many CSS properties take "length" values, such as width, margin, padding, font-size, etc.<br>
+            
+            Length is a number followed by a length unit, such as 10px, 2em, etc.<br><br>
+            
+            <b>Example</b><br><br>
+
+            Set different length values, using px (pixels):<br>
+            
+            h1 {<br>
+              font-size: 60px;<br>
+            }<br>
+            
+            p { <br>
+              font-size: 25px; <br>
+              line-height: 50px; <br>
+            } <br>
+            
+            Note: A whitespace cannot appear between the number and the unit. However, if the value is 0, the unit can be omitted. <br>
+            
+            For some CSS properties, negative lengths are allowed. <br><br>
+            
+            There are two types of length units: absolute and relative. <br>
+        </p>
+      
+    </div>
+    <div>
+        <h2>Absolute Lengths</h2> 
+        <p class="inch">
+            The absolute length units are fixed and a length expressed in any of these will appear as exactly that size. <br>
+        
+            Absolute length units are not recommended for use on screen, because screen sizes vary so much. However, they can be used if the output medium is known, such as for print layout. <br><br>
+            
+            <h3>Unit Description</h3> 
+            cm	centimeters <br>
+            mm	millimeters <br>
+            in	inches (1in = 96px = 2.54cm) <br>
+            px *	pixels (1px = 1/96th of 1in) <br>
+            pt	points (1pt = 1/72 of 1in) <br>
+            pc	picas (1pc = 12 pt) <br>
+            * Pixels (px) are relative to the viewing device. For low-dpi devices, 1px is one device pixel (dot) of the display. For printers and high resolution screens 1px implies multiple device pixels. <br>
+        </p>
+        
+       
+    </div>
+    <div>
+        <h2>Relative Lengths</h2> 
+        <p class="percentage
+        ">
+        Relative length units specify a length relative to another length property. Relative length units scale better between different rendering medium. <br>
+        
+        <h3>Unit Description</h3>	
+        em	Relative to the font-size of the element (2em means 2 times the size of the current font)	<br>
+        ex	Relative to the x-height of the current font (rarely used)	<br>
+        ch	Relative to the width of the "0" (zero)	<br>
+        rem	Relative to font-size of the root element	<br>
+        vw	Relative to 1% of the width of the viewport*	<br>
+        vh	Relative to 1% of the height of the viewport*	<br>
+        vmin	Relative to 1% of viewport's* smaller dimension	<br>
+        vmax	Relative to 1% of viewport's* larger dimension	<br>
+        %	Relative to the parent element	<br>
+        Tip: The em and rem units are practical in creating perfectly scalable layout! <br>
+        * Viewport = the browser window size. If the viewport is 50cm wide, 1vw = 0.5cm. <br>
+        </p>
+    </div>
+</body>
+</html>

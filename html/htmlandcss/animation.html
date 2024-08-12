@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        @keyframes waveHand{
+            0%{transform:rotation(0deg)}
+            50%{transform:rotation(45deg)}
+            100%{transform:rotation(0deg)}
+        }
+        .hand{
+            animation: waveHand 2s linear infinite;
+            width: 300px;
+            height: 350px;
+
+        }
+
+        @keyframes moveCar{
+            0%{left:0;}
+            50%{left:50;}
+            100%{left:100;}
+        }
+        .car{
+            width: 300px;
+            height: 350px;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            animation: moveCar 5s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <h2>Wavehand animation</h2>
+    <img class="hand" src="./image/wavehand.jpg"5>
+
+    <h2>Moving car</h2>
+    <img class="car" src="./image/car.jpg">
+</body>
+</html>

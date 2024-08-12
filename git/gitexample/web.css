@@ -1,0 +1,18 @@
+
+header{
+    grid-area: auto;
+    background-color: brown;
+}
+main{
+
+    grid-area: auto;
+    background-color: blueviolet;
+}
+aside{
+    grid-area: auto;
+    background-color: aquamarine;
+}
+footer{
+    grid-area: auto;
+    background-color: yellowgreen;
+}

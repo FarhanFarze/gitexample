@@ -1,0 +1,25 @@
+h1{
+    color: aquamarine;
+}
+P{
+    color: blueviolet; font-size:x-large;
+}
+#css{
+    color: rgb(244, 31, 31);
+}
+.abu{
+    color: rgb(117, 72, 5);
+}
+button:hover{
+    background-color: aqua;
+}
+h2::first-letter{
+    font-size: 24px;
+    font-weight: bold;
+    color: blue;
+}
+p::first-letter{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(142, 247, 104);  
+}

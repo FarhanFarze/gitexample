@@ -1,0 +1,17 @@
+#p1{
+    font-size: 25px;
+    color: brown;
+}
+p::first-letter{
+    font-size: large;
+    color: #da2828;
+}
+.inch{
+    width: 2in;
+}
+.inch{
+    margin: 3cm;
+}
+.percentage{
+    width: 25%;
+}
